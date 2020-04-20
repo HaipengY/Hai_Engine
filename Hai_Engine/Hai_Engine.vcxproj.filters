@@ -30,9 +30,15 @@
     <ClInclude Include="src\Hai.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hai\Log.h">
+      <Filter>源文件\HAI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hai\Application.cpp">
+      <Filter>源文件\HAI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hai\Log.cpp">
       <Filter>源文件\HAI</Filter>
     </ClCompile>
   </ItemGroup>

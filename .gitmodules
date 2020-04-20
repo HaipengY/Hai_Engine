@@ -1,0 +1,3 @@
+[submodule "Hai_Engine/submodule/spdlog"]
+	path = Hai_Engine/submodule/spdlog
+	url = https://github.com/gabime/spdlog

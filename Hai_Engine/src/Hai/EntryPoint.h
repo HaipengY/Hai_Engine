@@ -6,6 +6,10 @@ extern	 Hai::Application* Hai::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Hai::Log::Init();
+	HAI_CORE_WARN("iNITIALIZED LOG");
+	HAI_CLIENT_INFO("HALLO HAI!");
+
 	auto app = Hai::CreateApplication();
 	app->run();
 	delete app;
