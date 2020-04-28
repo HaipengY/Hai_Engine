@@ -27,9 +27,9 @@ namespace Hai {
 #define HAI_CLIENT_ERROR(...)  ::Hai::Log::GetClientLogger() ->error(__VA_ARGS__)
 #define HAI_CLIENT_FATAL(...)  ::Hai::Log::GetClientLogger() ->fatal(__VA_ARGS__)
 
-#define HAI_CORE_TRACE(...)  ::Hai::Log::GetCoreLogger() ->trace(__VA_ARGS__)
-#define HAI_CORE_INFO(...)   ::Hai::Log::GetCoreLogger() ->info(__VA_ARGS__)
-#define HAI_CORE_WARN(...)   ::Hai::Log::GetCoreLogger() ->warn(__VA_ARGS__)
-#define HAI_CORE_ERROR(...)  ::Hai::Log::GetCoreLogger() ->error(__VA_ARGS__)
-#define HAI_CORE_FATAL(...)  ::Hai::Log::GetCoreLogger() ->fatal(__VA_ARGS__)
+#define HAI_CORE_TRACE(...)    ::Hai::Log::GetCoreLogger() ->trace(__VA_ARGS__)
+#define HAI_CORE_INFO(...)     ::Hai::Log::GetCoreLogger() ->info(__VA_ARGS__)
+#define HAI_CORE_WARN(...)     ::Hai::Log::GetCoreLogger() ->warn(__VA_ARGS__)
+#define HAI_CORE_ERROR(...)    ::Hai::Log::GetCoreLogger() ->error(__VA_ARGS__)
+#define HAI_CORE_FATAL(...)    ::Hai::Log::GetCoreLogger() ->fatal(__VA_ARGS__)
 
